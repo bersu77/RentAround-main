@@ -1,0 +1,1 @@
+web: gunicorn RentAround.wsgi --log-file -

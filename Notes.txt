@@ -1,0 +1,44 @@
+-> RentHome
+
+uid,
+address,
+rent,
+location,
+is_available,
+
+
+-> Transaction
+t_id
+renthome(foreigney)
+
+
+->contract
+
+
+
+
+
+
+Homes list - D
+One House - D
+Add House - R
+Contact List - R
+
+
+
+
+
+
+
+
+
+
+from django.contrib import messages
+{% if messages %}
+{% for message in messages %}
+{{message}}
+{% endfor %}
+{% endif %}
+
+
+
